@@ -30,7 +30,7 @@ class List
     friend class Iterator;
 
     MyIterator begin() {return MyIterator(Head->Next);}
-    MyIterator end(){return MyIterator(Head->Prev);};
+    MyIterator end(){return MyIterator(Head);};
 
     Node Incert(Node* Current, int Value) // add before Node* Obj
     {
