@@ -18,7 +18,6 @@ int main()
         cout<< *it <<endl;
         it++;
     }
-    cout<<*it<<endl;
 
     return 0;
 }
